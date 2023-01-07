@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int herolv, demaclv, godaclv, gobaclv, wolfaclv;
+	herolv = 10;
+	wolfaclv = 0;
+	gobaclv = 20;
+	demaclv = 50;
+	godaclv = 100;
+	if(herolv >= demaclv) {
+		if (herolv > godaclv) {
+			cout << "You'd better to go to the God dungeon";
+		}
+		else {
+			cout << "Welcome to the Demon dungeon";
+		}
+	}
+	
+	else {
+		if (herolv >= gobaclv) {
+			cout << "You can't go higher, then the Goblin dungeon";
+		}
+		else {
+			cout << "You can't go higher, then the Wolf dungeon";
+		}
+	}
+	return 0;
+}
